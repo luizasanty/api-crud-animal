@@ -1,0 +1,5 @@
+# Ignorar Node
+node_modules
+
+# Ignorar variáveis de ambiente (Credenciais)
+.env
