@@ -1,3 +1,4 @@
+
 // projeto-csm/frontend/assets/javascript/script.js
 
 // Variável global para armazenar o ID do animal que está sendo editado

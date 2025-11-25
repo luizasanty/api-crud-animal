@@ -1,3 +1,4 @@
+
 -- Arquivo: projeto-csm/database/init.sql
 
 -- 1. Criação do Banco de Dados
@@ -38,5 +39,5 @@ CREATE TABLE IF NOT EXISTS animal (
     data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- 3. Comando de Verificação (Opcional, mas útil para o professor)
+-- 3. Comando de Verificação 
 SELECT * FROM animal;

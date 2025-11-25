@@ -1,3 +1,4 @@
+
 // projeto-csm/backend/server.js
 
 const express = require('express');
@@ -115,5 +116,4 @@ app.delete('/api/animais/:id', async (req, res) => {
 // INICIALIZAÇÃO DO SERVIDOR (DEVE SER A ÚLTIMA COISA DO ARQUIVO)
 // =======================================================
 app.listen(port, () => {
-    console.log(`Servidor Node.js rodando em http://localhost:${port}`);
-});
+    console.log(`Servidor Node.js rodando em http://localhost:${port}`);});
