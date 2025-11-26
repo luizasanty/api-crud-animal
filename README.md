@@ -13,7 +13,7 @@ Este projeto implementa um sistema CRUD (Create, Read, Update, Delete) completo 
 
 ---
 
-## 🛠️ 1. Configuração do Banco de Dados (MySQL)
+##  1. Configuração do Banco de Dados (MySQL)
 
 Para iniciar o projeto, é necessário ter um servidor MySQL rodando.
 
@@ -36,20 +36,19 @@ CREATE TABLE animal (
     peso_inicial DECIMAL(10, 2),
     data_nascimento DATE
 );
-(O professor pode inserir alguns dados de teste nesta tabela, se necessário, para validar a função READ.)
+(Pode inserir alguns dados de teste nesta tabela, se necessário, para validar a função READ.)
 
-⚙️ 2. Configuração do Backend (Node.js)
+ 2. Configuração do Backend (Node.js)
 A. Instalar Dependências
 Abra o terminal e navegue até a pasta do backend:
 
-Bash
-
 cd backend
+
 Instale todas as dependências do Node.js:
 
-Bash
 
 npm install
+
 B. Arquivo de Configuração (.env)
 O projeto utiliza o arquivo .env para gerenciar as credenciais do banco de dados (este arquivo não está no GitHub por questões de segurança).
 
@@ -66,8 +65,6 @@ DB_DATABASE=csm_cadastro_db
 DB_PORT=3306
 C. Iniciar o Servidor
 No terminal (ainda dentro da pasta /backend), inicie o servidor Node.js:
-
-Bash
 
 npm start
 O servidor deve iniciar na porta 3000.
